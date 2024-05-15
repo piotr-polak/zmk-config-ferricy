@@ -82,10 +82,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │ ^        │ {        │ }        │ (        │  )       │
-            &trans     &trans      &trans    &trans     &trans         &kb  CARET    &kp LBRC  &kp RBRC  &kp LPAR    &kp RPAR
+            &trans     &trans      &trans    &trans     &trans         &kp  CARET    &kp LBRC  &kp RBRC  &kp LPAR    &kp RPAR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  $       │
-            &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHIFT &trans         &kb LEFT   &kp DOWN  &kp UP   &kp RIGHT    &kp DLLR
+            &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHIFT &trans         &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT    &kp DLLR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │ HOME     │ PAGE UP  │ PAGE DN  │ END      │          │
            &trans      &trans      &trans    &trans      &trans        &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &trans
