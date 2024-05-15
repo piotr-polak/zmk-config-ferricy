@@ -33,17 +33,23 @@
     combos {
         compatible = "zmk,combos";
         combo_esc {
-            timeout-ms = <520>;
+            timeout-ms = <220>;
             key-positions = <4 7>;
             bindings = <&kp ESC>;
         };
         combo_minus{
-            timeout-ms = <520>;
+            timeout-ms = <220>;
             key-positions = <5 6>;
             bindings = <&kp MINUS>;
         };
-        combo_UNDER{
-            timeout-ms = <520>;
+        combo_delete{
+            timeout-ms = <220>;
+            key-positions = <24 27>;
+            bindings = <&kp DEL>;
+        };
+
+        combo_under{
+            timeout-ms = <220>;
             key-positions = <25 26>;
             bindings = <&kp UNDER>;
         };
