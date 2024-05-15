@@ -107,7 +107,7 @@
             &kp CARET   &kp DLLR   &kp LBRC   &kp RBRC   &kp FSLH      &kp BSLH  &trans      &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ !        │ @        │  [       │ ]        │ '        │   │ "        │ |        │          │          │          │
-            &kp EXCL   &kp AT     &kp LBKT   &kp RBKT   &kp APOS        &kp DQT   &kp PIPE       &trans :w    &trans     &trans
+            &kp EXCL   &kp AT     &kp LBKT   &kp RBKT   &kp APOS        &kp DQT   &kp PIPE    &trans   &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &rans      &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
