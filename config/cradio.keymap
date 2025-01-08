@@ -50,6 +50,13 @@
             key-positions = <6 7>;
             bindings = <&kp DEL>;
         };
+        combo_backspace{
+            timeout-ms = <50>;
+            // keys: V M
+            key-positions = <26 27>;
+            bindings = <&kp BSPChx>;
+        };
+ 
         combo_under{
             timeout-ms = <50>;
             // keys: B N
@@ -121,7 +128,7 @@
             &kp AMPS   &kp HASH    &kp LPAR   &kp RPAR  &kp PRCNT      &kp STAR  &trans    &trans      &trans      &kp PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ ^        │  $       │  {       │  }       │ /        │   │  \       │          │          │          │          │
-            &kp CARET   &kp DLLR   &kp LBRC   &kp RBRC  &kp FSLH      &kp BSLH  &trans      &trans     &trans     &trans
+            &kp CARET   &kp DLLR   &kp LBRC   &kp RBRC  &kp FSLH      &kp BSLH  &kp UNDER      &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ !        │ @        │  [       │ ]        │ '        │   │ "        │ |        │          │          │          │
             &kp EXCL   &kp AT     &kp LBKT   &kp RBKT   &kp APOS        &kp DQT   &kp PIPE    &trans   &trans     &trans
