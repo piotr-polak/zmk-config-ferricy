@@ -90,10 +90,10 @@
             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ; :      │
-            HRML(A,     S,         D,         F)         &kp G          &kp H      HRMR(J,        K,         L,    SEMI)
+            &kp A       &ht LALT S  &ht LCTRL D &ht LSHFT F  &kp G      &kp H      &ht RSHFT J &ht RCTRL K  &ht RALT L  &kp  SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
-            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
+            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &ht RGUI FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                         &lt NAV SPACE &lt MED TAB    &lt SYM ENTER &lt NUM BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -125,10 +125,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ &        │ #        │  (       │  )       │ %        │   │  *       │          │          │          │ PRINT SC │
-            &kp AMPS   &kp HASH    &kp LPAR   &kp RPAR  &kp PRCNT      &kp STAR  &trans    &trans      &trans      &kp PSCRN
+            &kp AMPS   &kp HASH    &kp LPAR   &kp RPAR  &kp PRCNT      &kp STAR   &trans     &trans     &trans     &kp PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ ^        │  $       │  {       │  }       │ /        │   │  \       │          │          │          │          │
-            &kp CARET   &kp DLLR   &kp LBRC   &kp RBRC  &kp FSLH      &kp BSLH  &kp UNDER      &trans     &trans     &trans
+            &kp CARET   &kp DLLR   &kp LBRC   &kp RBRC  &kp FSLH      &kp BSLH    &kp UNDER  &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ !        │ @        │  [       │ ]        │ '        │   │ "        │ |        │          │          │          │
             &kp EXCL   &kp AT     &kp LBKT   &kp RBKT   &kp APOS        &kp DQT   &kp PIPE    &trans   &trans     &trans
@@ -147,7 +147,7 @@
            &kp EQUAL   &kp N7     &kp N8     &kp N9     &kp N0         &kp UNDER  &kp F9     &kp F10    &kp F11    &kp F12
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │ 4        │ 5        │ 6        │          │   │          │          │          │          │          │
-            &kp STAR   &kp N4     &kp N5     &kp N6     &kp PLUS       &kp COMMA  &ht RSHFT F5  &kp F6     &kp F7     &kp F8
+            &kp STAR   &kp N4     &kp N5     &kp N6     &kp PLUS       &kp COMMA  &ht RSHFT F5  &kp F6  &kp F7     &kp F8
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │ 1        │ 2        │ 3        │          │   │          │          │          │          │          │
             &kp FSLH   &kp N1     &kp N2      &kp N3   &kp MINUS      &kp DOT     &kp F1     &kp F2     &kp F3     &kp F4
