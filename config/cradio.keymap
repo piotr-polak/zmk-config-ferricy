@@ -98,6 +98,15 @@
     //        };
     //    };
 
+    macros {
+        email: email {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp T &kp R &kp S &kp H &kp O &kp P &kp P &kp I &kp N &kp G &kp AT &kp P &kp R &kp O &kp T &kp O &kp N &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -114,7 +123,7 @@
 
         nav_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &kp CARET  &kp LBRC   &kp RBRC   &kp LPAR   &kp RPAR
+&email  &trans  &trans  &trans  &trans    &kp CARET  &kp LBRC   &kp RBRC   &kp LPAR   &kp RPAR
 &trans  &trans  &trans  &trans  &trans    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DLLR
 &trans  &trans  &trans  &trans  &trans    &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &kp PRINTSCREEN
                         &trans  &trans    &kp INS    &trans
