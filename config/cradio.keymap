@@ -123,10 +123,10 @@
 
         nav_layer {
             bindings = <
-&email  &trans  &trans     &trans          &trans             &kp CARET  &kp LBRC   &kp RBRC   &kp LPAR   &kp RPAR
-&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &trans             &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DLLR
-&trans  &trans  &trans     &trans          &kp PRINTSCREEN    &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &kp INS
-                           &trans          &trans             &trans     &trans
+&email  &trans  &trans  &trans          &trans             &kp CARET  &kp LBRC   &kp RBRC   &kp LPAR   &kp RPAR
+&trans  &trans  &none   &kp LEFT_SHIFT  &trans             &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DLLR
+&trans  &trans  &trans  &trans          &kp PRINTSCREEN    &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &kp INS
+                        &trans          &trans             &trans     &trans
             >;
         };
 
