@@ -110,7 +110,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-/* BSE: Querty
+        /* BSE: Querty
  * ,--------------------------------+      +----------------------------------.
  * | Q  |   W  |   E  |   R  |   T  |      |   Y  |   U  |   I  |   O  |   P  |
  * |----+------+------+------+------+      +-------------+------+------+------|
@@ -131,7 +131,7 @@
             >;
         };
 
-/* NAV: Navigation
+        /* NAV: Navigation
  * ,--------------------------------+      +----------------------------------.
  * |    |      |      |      |      |      |   ^  |   {  |   }  |   (  |   )  |
  * |----+------+------+------+------+      +-------------+------+------+------|
@@ -145,14 +145,14 @@
 
         nav_layer {
             bindings = <
-&email  &trans  &trans  &trans          &trans             &kp CARET  &kp LBRC   &kp RBRC   &kp LPAR   &kp RPAR
-&trans  &trans  &none   &kp LEFT_SHIFT  &trans             &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DLLR
-&trans  &trans  &trans  &trans          &kp PRINTSCREEN    &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &kp INS
-                        &trans          &trans             &trans     &trans
+&email  &trans        &trans     &trans          &trans             &kp CARET  &kp LBRC   &kp RBRC   &kp LPAR   &kp RPAR
+&trans  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans             &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DLLR
+&trans  &trans        &trans     &trans          &kp PRINTSCREEN    &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &kp INS
+                                 &trans          &trans             &trans     &trans
             >;
         };
 
-/* SYM: Symbols
+        /* SYM: Symbols
  * ,--------------------------------+      +----------------------------------.
  * |  & |   *  |   (  |   )  |   #  |      |   ^  |  ~   |      |      |      |
  * |----+------+------+------+------+      +-------------+------+------+------|
@@ -173,7 +173,7 @@
             >;
         };
 
-/* NUM: Numbers
+        /* NUM: Numbers
  * ,--------------------------------+      +----------------------------------.
  * |  = |   7  |   8  |   9  |   0  |      |   _  |  F9  | F10  | F11  | F12  |
  * |----+------+------+------+------+      +-------------+------+------+------|
@@ -194,7 +194,7 @@
             >;
         };
 
-/* MED: Media
+        /* MED: Media
  * ,--------------------------------+      +----------------------------------.
  * | Tog|      |      |      |      |      |      |      |      |      |      |
  * |----+------+------+------+------+      +-------------+------+------+------|
