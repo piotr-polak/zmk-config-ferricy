@@ -88,6 +88,11 @@
             key-positions = <2 7>;
             bindings = <&caps_word>;
         };
+
+        conbo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <22 23>;
+        };
     };
 
     //    conditional_layers {
