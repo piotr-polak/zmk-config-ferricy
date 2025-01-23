@@ -213,10 +213,10 @@
 
         med_layer {
             bindings = <
-&none       &none         &none         &none         &bt BT_CLR_ALL    &trans      &none         &trans        &trans  &trans
-&bt BT_NXT  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &trans            &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans
-&bt BT_PRV  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans            &kp C_PP    &kp C_PREV    &kp C_NEXT    &trans  &trans
-                                        &trans        &trans            &trans      &trans
+&none       &none         &none         &none         &bt BT_CLR_ALL    &kp K_MUTE         &none       &trans  &trans  &trans
+&bt BT_NXT  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &trans            &kp C_VOLUME_UP    &kp C_NEXT  &none   &trans  &trans
+&bt BT_PRV  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans            &kp C_VOLUME_DOWN  &kp C_PREV  &none   &trans  &trans
+                                        &trans        &trans            &trans             &trans
             >;
         };
 
