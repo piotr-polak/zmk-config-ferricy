@@ -129,10 +129,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W       &kp E        &kp R          &kp T          &kp Y          &kp U         &kp I        &kp O       &kp P
-&kp A  &ht LALT S  &ht LCTRL D  &ht LSHFT F    &kp G          &kp H          &ht RSHFT J   &ht RCTRL K  &ht RALT L  &kp SEMI
-&kp Z  &kp X       &kp C        &kp V          &kp B          &kp N          &kp M         &kp COMMA    &kp DOT     &ht RGUI FSLH
-                                &lt NAV SPACE  &lt MED TAB    &lt SYM ENTER  &lt NUM BSPC
+&kp Q           &kp W           &kp E               &kp R             &kp T          &kp Y          &kp U              &kp I                    &kp O              &kp P
+&kp A           &kp S           &kp D               &kp F             &kp G          &kp H          &kp J              &kp K                    &kp L              &kp SEMI
+&ht LEFT_GUI Z  &ht LEFT_ALT X  &ht LEFT_CONTROL C  &ht LEFT_SHIFT V  &kp B          &kp N          &ht RIGHT_SHIFT M  &ht RIGHT_CONTROL COMMA  &ht RIGHT_ALT DOT  &ht RGUI FSLH
+                                                    &lt NAV SPACE     &lt MED TAB    &lt SYM ENTER  &lt NUM BSPC
             >;
         };
 
@@ -150,10 +150,10 @@
 
         nav_layer {
             bindings = <
-&email  &trans        &trans     &trans          &trans             &kp CARET  &kp LBRC   &kp RBRC   &kp LPAR   &kp RPAR
-&trans  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans             &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DLLR
-&trans  &trans        &trans     &trans          &kp PRINTSCREEN    &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &kp INS
-                                 &trans          &trans             &trans     &trans
+&email  &trans  &trans  &trans          &trans             &kp CARET  &kp LBRC   &kp RBRC   &kp LPAR   &kp RPAR
+&trans  &none   &none   &none           &trans             &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DLLR
+&trans  &trans  &trans  &kp LEFT_SHIFT  &kp PRINTSCREEN    &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &kp INS
+                        &trans          &trans             &trans     &trans
             >;
         };
 
@@ -192,9 +192,9 @@
 
         num_layer {
             bindings = <
-&kp EQUAL  &kp N7  &kp N8  &kp N9  &kp N0       &kp UNDER  &kp F9        &kp F10  &kp F11  &kp F12
-&kp STAR   &kp N4  &kp N5  &kp N6  &kp PLUS     &kp COMMA  &ht RSHFT F5  &kp F6   &kp F7   &kp F8
-&kp FSLH   &kp N1  &kp N2  &kp N3  &kp MINUS    &kp DOT    &kp F1        &kp F2   &kp F3   &kp F4
+&kp EQUAL  &kp N7  &kp N8  &kp N9  &kp N0       &kp UNDER  &kp F9              &kp F10  &kp F11  &kp F12
+&kp STAR   &kp N4  &kp N5  &kp N6  &kp PLUS     &kp COMMA  &kp F5              &kp F6   &kp F7   &kp F8
+&kp FSLH   &kp N1  &kp N2  &kp N3  &kp MINUS    &kp DOT    &ht RIGHT_SHIFT F1  &kp F2   &kp F3   &kp F4
                            &trans  &trans       &trans     &trans
             >;
         };
